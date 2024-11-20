@@ -62,14 +62,19 @@ class App(tk.Tk):
 
 
     def multiply(self): 
+        print("Функция умножить выполнена")
         self.calculate("умножить")
     def division(self): 
+        print("Функция делить выполнена")
         self.calculate("делить")
     def addition(self): 
+        print("Функция сложить выполнена")
         self.calculate("сложить")
-    def subtract(self): 
+    def subtract(self):
+        print("Функция вычесть выполнена") 
         self.calculate("вычесть")
     def exponentiaton(self): 
+        print("Функция возвести в степень выполнена")
         self.calculate("возвести в степень")
 
 
